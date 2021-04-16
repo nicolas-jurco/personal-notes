@@ -1,0 +1,130 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+        "key": "ctrl+oem_minus ctrl+up",
+        "command": "cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+home",
+        "command": "-cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_minus ctrl+shift+up",
+        "command": "cursorTopSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+home",
+        "command": "-cursorTopSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+oem_minus ctrl+right",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "end",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_minus ctrl+shift+right",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+end",
+        "command": "-cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+oem_minus ctrl+down",
+        "command": "cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+end",
+        "command": "-cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_minus ctrl+shift+down",
+        "command": "cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+end",
+        "command": "-cursorBottomSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+oem_minus ctrl+left",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "ctrl+shift+oem_minus ctrl+shift+left",
+        "command": "cursorLineStartSelect"
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "editor.action.insertCursorBelow",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+down",
+		"command": "-editor.action.insertCursorBelow",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "editor.action.insertCursorAbove",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+up",
+		"command": "-editor.action.insertCursorAbove",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+alt+down",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "-editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+alt+up",
+		"command": "editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "-editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "oem_5",
+		"command": "modaledit.enterInsert"
+	},
+	{
+		"key": "s",
+		"command": "-jupyter.notebookeditor.keybind.save",
+		"when": "config.jupyter.enableKeyboardShortcuts && config.jupyter.enableKeyboardShortcuts && notebookEditorFocused && notebookEditorFocused && !inputFocus && !inputFocus && notebookViewType == 'jupyter-notebook' && notebookViewType == 'jupyter-notebook'"
+	},
+	{
+		"key": "oem_1",
+		"command": "modaledit.enterNormal",
+		"when": "editorTextFocus && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+	},
+	{
+		"key": "escape",
+		"command": "-modaledit.enterNormal",
+		"when": "editorTextFocus && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+	}
+]
