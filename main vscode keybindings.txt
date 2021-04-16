@@ -1,34 +1,34 @@
-ctrl + q                => navigate on treeview of sidebar
+CTRL + q                => navigate on treeview of sidebar
 
-clt + z                 => wraps text to fit long lines on window
+CTRL + z                => wraps text to fit long lines on window
 
-ctrl + k, ctrl + f      => prettier code
-ctrl + alt + f          => format all document
+CTRL + k, CTRL + f      => prettier code
+CTRL + ALT + f          => format all document
 
-ctrl + k, z             => show window on full screen 
+CTRL + k, z             => show window on full screen 
 
-ctrl + shift + k        => deletes current line
-ctrl + l                => selects current line
-ctrl + k, ctrl + 0      => folds all sections
-ctrl + k, ctrl + j      => unfolds all sections
+CTRL + SHIFT + k        => deletes current line
+CTRL + l                => selects current line
+CTRL + k, CTRL + 0      => folds all sections
+CTRL + k, CTRL + j      => unfolds all sections
 
-ctrl + u                => undo curssor position
+CTRL + u                => undo curssor position
 
-ctrl + alt + ArrRight   => separates current file on new group
+CTRL + ALT + ArrRight   => separates current file on new group
 
-shift + alt + ArrRight   => selects current block
+SHIFT + ALT + ArrRight   => selects current block
 	
-ctrl + ]                => comments current line
-alt + shift + a         => comments selection
+CTRL + ]                => comments current line
+ALT + SHIFT + a         => comments selection
 
-ctrl + d                => select all instances on file of word on cursor
+CTRL + d                => select all instances on file of word on cursor
 
-f2                      => change name of function
+F2                      => change name of function
 
-f12                     => go to definition
-f12 + alt               => peek definition
+F12                     => go to definition
+F12 + ALT               => peek definition
 
-ctrl + k, m             => peek file language
+CTRL + k, m             => peek file language
 
 README.md:
-ctrl + k, v             => see readme preview
+CTRL + k, v             => see readme preview
